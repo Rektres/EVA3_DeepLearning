@@ -1,0 +1,10 @@
+Manual de Uso del Agente
+
+Este agente recibe una frase y un estilo literario como parámetro externo.
+
+1. Importar el archivo workflow_n8n.json en n8n.
+2. Ejecutar el flujo manualmente o desde un webhook.
+3. Enviar una frase y seleccionar uno de los estilos: "Alicia", "Don Quijote" o "Martín Rivas".
+4. El resultado será la frase reescrita en ese estilo.
+
+No se necesita acceso a servicios pagos.

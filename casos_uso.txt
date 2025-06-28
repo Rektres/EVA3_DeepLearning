@@ -1,0 +1,14 @@
+Caso 1:
+Frase original: Gracias por tu esfuerzo
+Estilo: Don Quijote
+Resultado: Sois vos, noble caballero, quien empuja la rueda de nuestra empresa.
+
+Caso 2:
+Frase original: ¡Atención, cambio de hora!
+Estilo: Alicia
+Resultado: ¡Oh, relojes traviesos! El tiempo se dobla, da vueltas y ya no es igual.
+
+Caso 3:
+Frase original: Su producto fue enviado
+Estilo: Martín Rivas
+Resultado: Su pedido fue despachado con la diligencia que nos distingue.
