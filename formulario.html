@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de Mensaje</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: radial-gradient(circle, rgba(16, 82, 19, 1) 10%, rgba(19, 156, 80, 1) 61%);
+      font-family: Calibri, sans-serif;
+    }
+
+    .formulario {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 30px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      width: 300px;
+    }
+
+    .formulario h2 {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .formulario label {
+      font-size: 10px;
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+
+    .formulario textarea,
+    .formulario select,
+    .formulario button {
+      width: 100%;
+      padding: 8px;
+      font-size: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    .formulario button {
+      background-color: #139c50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    .formulario button:hover {
+      background-color: #0e7b3d;
+    }
+  </style>
+</head>
+<body>
+  <div class="formulario">
+    <h2>Enviar Mensaje</h2>
+    <form action="#" method="post">
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+      <label for="numero">Elige un libro:</label>
+      <select id="numero" name="numero" required>
+        <option value="" disabled selected>Selecciona una opción</option>
+        <option value="1">Alicia en el país de las maravillas</option>
+        <option value="2">Don Quijote de la Mancha</option>
+        <option value="3">Martín Rivas</option>
+      </select>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>
